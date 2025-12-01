@@ -1,0 +1,14 @@
+@charset "utf-8" ;
+*{
+  background-attachment: fixed;
+}
+
+body{
+
+  background-image: linear-gradient(45deg ,#DFE381, #E39B98 , #61A7E1);
+}
+
+h1{
+    color:#615554;
+    text-align: center;
+}

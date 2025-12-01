@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de caixas </title>
+    <style>
+        a{
+            border-style: solid;
+            width: 5px;
+            border-color: red;
+        }
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: gray;
+                color: aliceblue;
+                text-align: center;
+                border: 7px;
+                border-color: yellow;
+                border-style: solid;
+                width: 300px;
+                height: 300px;
+                padding: 25px;
+                margin: 30px;
+                margin-top: 45px;
+            }
+            h1:hover{
+                text-decoration: underline;
+                color: red;
+                text-decoration-color: antiquewhite;
+                
+            }
+            h1 > p{
+                display: none;
+            }
+            h1:hover > p{
+                display: block;
+                color: blueviolet;
+                font-size: 2em;
+            }
+        
+    </style>
+</head>
+<body>
+    <h1>Testando modelos de caixas
+        <p>Seren</p>
+    </h1>
+    <p>Paragráfo também é um modelo box-level enquanto <a href="#">é inline-level</a> , fica a dica para você testar.</p>
+</body>
+</html>

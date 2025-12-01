@@ -1,0 +1,97 @@
+@charset "UTS-8";
+@font-face {
+    font-family: idroid ;
+    src: url(projetod10/fontes/idroid.otf);
+}
+*{
+    margin: 0;
+}
+body{
+    background-color: #4cec3d;
+}
+header{
+    background-image: linear-gradient(to bottom ,#4cec3d ,#4ba043 ,#0d5707);
+    padding: 20px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    height: 150px;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 65px;
+    margin-left: -20px;
+    padding: 3px;
+    width: 600px;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 40px;
+}
+nav > a:hover{
+    font-family: idroid ;
+}
+
+h3{
+    
+    margin-top: 25px;
+}
+main{
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+}
+main > h1{
+    font-family: idroid , sans-serif;
+    padding-left: 15px;
+    color: #23741c;
+}
+main > h2{
+    font-family: idroid , sans-serif;
+    color: #23741c;
+}
+main > p{
+    font-size: 1.2em;
+}
+figcaption{
+    text-align: center;
+}
+#bugdroid > img{
+    margin: auto;
+    display: flex;
+}
+iframe{
+    display: flex;
+    margin: auto;
+}
+
+div{
+    align-content: center;
+}
+
+#listas{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+
+}
+div > ul#lista1{
+        text-align: left;
+}
+div > ul#lista2{
+        text-align: right;
+}
+footer{
+    background-color: #0d5707 ;
+    padding: 2px;
+    text-align: center;
+    color: white;
+}

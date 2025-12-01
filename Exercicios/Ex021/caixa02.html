@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: gray;
+        }
+        header{
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+            border: 2px solid rebeccapurple;
+            border-radius: 10px;
+        }
+        header > h1{
+            color: rebeccapurple;
+            text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.185);
+        }
+
+        
+        nav{
+            background-color: rgb(114, 95, 95);
+            box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.514);
+            padding: 3px;
+
+            
+        }
+        nav > a {
+            color: antiquewhite;
+            text-decoration: none;
+            font-size: 0.80em;
+            padding:10px;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            color: rebeccapurple;
+            font-size: 1em;
+            text-decoration: underline;
+            
+
+        }
+        
+       section > article{
+        background-color: gray;
+        color: white;
+        background-color: rebeccapurple;
+       }
+        
+        
+        
+        main{
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+            border: 2px solid rebeccapurple;
+            border-radius: 10px;
+        }
+        section > h2{
+            color: rebeccapurple;
+            font-size: 1.15em;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 4px;
+            font-size: 0.90em;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About US</a>
+            <a href="https://tasabendo.com.br/" target="_blank" rel="external">News</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+    <main>
+        <section id="news">
+            <h2>News</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam obcaecati fugiat maiores facilis non velit molestias eveniet assumenda possimus tempore, ad itaque architecto, dolores voluptatum nemo fuga voluptate consequatur.</p>
+        </section>
+        <section id="shop">
+           
+            <h2>Shop</h2>
+            <article>
+                Clothes
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rodrigo</p>
+    </footer>
+    
+</body>
+</html>
