@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background-color: black;
+    color: white;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: self-end;
+}
+
+.menu .logo img{
+    width: 5rem;
+    align-items: center;
+}
+
+
+.menu nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.menu nav a:hover{
+    color: goldenrod;
+    font-size: 1.3em;
+    transition: 0.3s;
+}
