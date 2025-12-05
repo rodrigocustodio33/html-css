@@ -7,9 +7,14 @@
 
 body{
    background-image: linear-gradient(45deg , #7515E6 ,  #E615B8, #BA15E6);
-   margin: 0;
+ 
+}
+
+main{
+    margin: auto;
 }
 header{
+    margin: auto;
     
     padding: 15px;
     margin: 10px;
